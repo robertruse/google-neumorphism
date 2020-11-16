@@ -118,19 +118,6 @@ img {
   align-items: center;
 }
 
-.footer li {
-  font-size: 0.9rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: 10px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.footer li:hover {
-  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1),
-    inset -5px -5px 5px rgba(255, 255, 255, 0.75);
-}
-
 /* Buttons */
 .btn {
   display: flex;
@@ -138,12 +125,13 @@ img {
   align-items: center;
   text-align: center;
   color: var(--dark-color);
+  background: transparent;
   padding: 0.5rem 1rem;
   margin-right: 1rem;
+  border-radius: 10px;
   border: none;
   outline: none;
   white-space: nowrap;
-  border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
     -5px -5px 5px rgba(255, 255, 255, 0.75);
 }
@@ -154,12 +142,32 @@ img {
     inset -5px -5px 5px rgba(255, 255, 255, 0.75);
 }
 
+.btn-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--dark-color);
+  background: transparent;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  white-space: nowrap;
+}
+
+.btn-footer:hover {
+  color: var(--google-blue);
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.75);
+}
+
 .btn-round {
   padding: 0.5rem;
   border-radius: 50%;
 }
 
-.blue-color {
+.blue-text {
   color: var(--google-blue);
 }
 
