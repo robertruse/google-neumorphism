@@ -2,6 +2,7 @@
   --bkg-color: #f1f3f8;
   --font-color: #555;
   --highlight-color: #4c8bf5;
+
   --shadow-up: -5px -5px 10px rgba(255, 255, 255, 1),
     5px 5px 20px rgba(0, 0, 0, 0.1),
     inset 5px 5px 10px rgba(255, 255, 255, 0.75),
@@ -32,6 +33,7 @@
   --font-color: #bbb;
   --font-color: #d4d5d6;
   --highlight-color: #4c8bf5;
+
   --shadow-up: -5px -5px 25px rgba(255, 255, 255, 0.1),
     5px 5px 20px rgba(0, 0, 0, 0.5),
     inset 5px 5px 20px rgba(255, 255, 255, 0.05),
@@ -98,6 +100,7 @@ img {
   position: absolute;
   top: 70px;
   right: 40px;
+  z-index: 1;
   border-radius: 20px;
   padding: 1rem;
 }
@@ -132,18 +135,15 @@ img {
 }
 
 /* Scroll bar */
-/* width */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: var(--shadow-down);
   border-radius: 10px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #cad3e6;
   background: var(--highlight-color);
@@ -315,11 +315,11 @@ img {
 
 /* Media queries */
 @media (max-width: 805px) {
-  #gmail {
+  #btn-gmail {
     display: none;
   }
 
-  #images {
+  #btn-images {
     display: none;
   }
 
