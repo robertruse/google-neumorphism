@@ -10,26 +10,124 @@
 </head>
 <body>
   <div class="container">
+    <!-- Menu -->
+    <div class="menu card" id="menu">
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fas fa-user fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Acount</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-google fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Search</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-map-marker-alt fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Maps</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-youtube fa-2x btn-up btn-round"></i>
+          </a>
+          <span>YouTube</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-google-play fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Play</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="far fa-envelope fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Gmail</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-google-drive fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Drive</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="far fa-calendar-alt fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Calendar</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-language fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Translate</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="far fa-image fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Photos</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="far fa-file-alt fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Docs</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="far fa-newspaper fa-2x btn-up btn-round"></i>
+          </a>
+          <span>News</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-video fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Meet</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-camera fa-2x btn-up btn-round"></i>
+          </a>
+          <span>Duo</span>
+        </li>
+      </ul>
+    </div>
+
     <!-- Nav Bar-->
     <nav class="nav-bar">
       <ul>
         <li>
-          <a href="#" class="btn btn-round" id="gmail">
+          <button class="btn-up" id="btn-dark">
+            <i class="far fa-moon"></i>
+            <span>Dark Mode</span>
+          </button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#" class="btn-up btn-round" id="gmail">
             <i class="far fa-envelope"></i>
           </a>
         </li>
         <li>
-          <a href="#" class="btn btn-round" id="images">
+          <a href="#" class="btn-up btn-round" id="images">
             <i class="far fa-image"></i>
           </a>
         </li>
         <li>
-          <a href="#" class="btn btn-round" id="menu">
+          <button class="btn-up btn-round" id="btn-menu">
             <i class="fas fa-th"></i>
-          </a>
+          </button>
         </li>
         <li>
-          <a href="#" class="btn" id="sign-in">Sign in</a>
+          <button class="btn-up" id="sign-in">Sign in</button>
         </li>
       </ul>
     </nav>
@@ -38,30 +136,30 @@
     <main class="main">
       <a href="#" class="logo"><img src="images/google-logo.png" /></a>
 
-      <div class="search-bar">
+      <div class="search-bar btn-down">
         <i class="fas fa-search"></i>
         <input type="text" autocomplete="of" />
         <i class="fas fa-microphone"></i>
       </div>
 
       <div class="main-buttons">
-        <button class="btn btn-srch">Google Search</button>
-        <button class="btn btn-ifl">I'm Feeling Lucky</button>
+        <button class="btn-up" id="search">Google Search</button>
+        <button class="btn-up" id="ifl">I'm Feeling Lucky</button>
       </div>
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer card">
       <ul>
-        <li><a href="#" class="btn-footer" id="advertising">Advertising</a></li>
-        <li><a href="#" class="btn-footer" id="business">Business</a></li>
-        <li><a href="#" class="btn-footer" id="about">About</a></li>
-        <li><a href="#" class="btn-footer" id="hsw">How Search works</a></li>
+        <li><a href="#" class="btn-middle" id="advertising">Advertising</a></li>
+        <li><a href="#" class="btn-middle" id="business">Business</a></li>
+        <li><a href="#" class="btn-middle" id="about">About</a></li>
+        <li><a href="#" class="btn-middle" id="hsw">How Search works</a></li>
       </ul>
       <ul>
-        <li><a href="#" class="btn-footer" id="privacy">Privacy</a></li>
-        <li><a href="#" class="btn-footer" id="terms">Terms</a></li>
-        <li><a href="#" class="btn-footer" id="settings">Settings</a></li>
+        <li><a href="#" class="btn-middle" id="privacy">Privacy</a></li>
+        <li><a href="#" class="btn-middle" id="terms">Terms</a></li>
+        <li><a href="#" class="btn-middle" id="settings">Settings</a></li>
       </ul>
     </footer>
   </div>
