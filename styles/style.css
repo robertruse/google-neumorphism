@@ -141,17 +141,17 @@ img {
 }
 
 /* Scroll bar */
-::-webkit-scrollbar {
+.menu-container::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
-::-webkit-scrollbar-track {
+.menu-container::-webkit-scrollbar-track {
   box-shadow: var(--shadow-down);
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #cad3e6;
+.menu-container::-webkit-scrollbar-thumb {
   background: var(--highlight-color);
 
   border-radius: 10px;
