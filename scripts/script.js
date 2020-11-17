@@ -19,7 +19,7 @@ function isClicked() {
   }
 }
 
-/* Menu */
+/* Menu card*/
 // Toggle .show class to #menu div when #btn-menu is clicked
 const menuCard = document.querySelector("#menu");
 const menuButton = document.querySelector("#btn-menu");
@@ -31,7 +31,7 @@ function selectMenu(e) {
   this.classList.toggle("btn-up-on");
 }
 
-// Remove the .show class from #menu and #btn-menu divs if mouse click is outside of div
+// Remove the .show class from #menu div if mouse click is outside of div
 document.addEventListener("click", closeMenu);
 
 function closeMenu(e) {
