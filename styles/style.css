@@ -29,24 +29,6 @@
   --font-color: #d4d5d6;
   --highlight-color: #4c8bf5;
 
-  /* --shadow-up: -5px -5px 25px rgba(255, 255, 255, 0.1),
-    5px 5px 20px rgba(0, 0, 0, 0.5),
-    inset 5px 5px 20px rgba(255, 255, 255, 0.05),
-    inset -5px -5px 20px rgba(0, 0, 0, 0.4),
-    inset 2px 2px 2px rgba(255, 255, 255, 0.075),
-    inset -2px -2px 2px rgba(0, 0, 0, 0.1);
-
-  --shadow-down: 5px 5px 20px rgba(0, 0, 0, 0.5),
-    -5px -5px 25px rgba(255, 255, 255, 0.1),
-    inset 5px 5px 20px rgba(0, 0, 0, 0.4),
-    inset -5px -5px 20px rgba(255, 255, 255, 0.05);
-
-  --shadow-middle: inset 5px 5px 20px rgba(0, 0, 0, 0.5),
-    inset -5px -5px 20px rgba(255, 255, 255, 0.05);
-
-  --shadow-card: -5px -5px 25px rgba(255, 255, 255, 0.1),
-    5px 5px 20px rgba(0, 0, 0, 0.5); */
-
   --shadow-up: -5px -5px 25px rgba(255, 255, 255, 0.1),
     5px 5px 20px rgba(0, 0, 0, 0.4),
     inset 5px 5px 20px rgba(255, 255, 255, 0.05),
@@ -290,7 +272,6 @@ img {
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
   white-space: nowrap;
-  /* box-shadow: var(--shadow-middle-up); */
 }
 
 .btn-middle:hover {
@@ -318,7 +299,6 @@ img {
   background: var(--bkg-color);
   box-shadow: var(--shadow-up);
   border: 2px solid var(--bkg-color);
-  /* border-radius: 25px; */
 }
 
 .btn-round {
