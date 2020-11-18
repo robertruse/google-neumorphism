@@ -1,4 +1,4 @@
-# Pluralsight Login Page
+# Google Neumorphism
 
 In this project I built my own version of the Google homepage using the new Neumorphism design style. I used HTML5/CSS and a bit of JavaScript for the Dark Mode theme and the menu.
 
